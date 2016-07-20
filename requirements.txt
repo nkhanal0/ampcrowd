@@ -8,7 +8,7 @@ django-celery==3.1.16
 django-sslserver==0.12
 gunicorn==19.0.0
 kombu==3.0.23
-matplotlib==1.4.0
+matplotlib==1.5.1
 mechanize==0.2.5
 mock==1.0.1
 multi-mechanize==1.2.0

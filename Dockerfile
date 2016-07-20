@@ -1,11 +1,9 @@
 FROM python:2
 
-RUN apt-get update && apt-get install -y postgresql-client
-
+RUN apt-get update && apt-get install -y postgresql-client libfreetype6-dev pkg-config
 COPY requirements.txt /usr/src/app/
 WORKDIR /usr/src/app
 RUN pip install -r requirements.txt
-
 ENV PYTHONUNBUFFERED 1
 EXPOSE 8000
 
